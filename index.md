@@ -5,12 +5,12 @@ has_children: false
 has_toc: false
 nav_order: 1
 ---
-# Välkommen till användarmanual för Decidim
+# Byte Size: Computer science in small chunks
 
-Här hittar du artiklar som hjälper dig att komma igång med Decidim, om hur du skapar processer och andra typer av utrymmen för deltagande.
+We think computer science should be welcoming and accessible to everyone. Byte Size is a conversational course in computing, programming, humanity, and everything in between. Join us in our adventure through the wide world of computer science on any of the major listening platforms.
 
-## Support
+## Contact
 
-Om du inte hittar det du letar efter i denna manual får du gärna [kontakta oss](pierre@digidemlab.org) så hjälper vi dig!
+Put a contact email here
 
-Du kan också föreslå nya artiklar för funktioner som är svåra att förstå.
+Maybe some more information ?
