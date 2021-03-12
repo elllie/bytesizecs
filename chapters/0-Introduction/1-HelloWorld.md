@@ -8,4 +8,4 @@ nav_order: 1
 
 # Byte 0-1: Hello, World!
 
-I am a child page.
+some text about what is computer science
