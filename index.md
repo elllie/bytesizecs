@@ -14,7 +14,7 @@ Computers might be boxes of magic rocks, but they shouldn’t be mystical. We be
 
 Each chapter focuses on a broad topic in computer science, from **programming basics** to **computing and humanity**. Each chapter is broken up into several short, easily-digestible episodes. We also include a wide variety of computer scientists who join us to provide aditional insight on the topics we discuss.
 
-In addition to the episodes, each chapter also contains practice materials and links to supplimental information.
+In addition to the episodes, each chapter also contains practice materials and links to supplimental information. Check our first chapter: [O. Introduction](http://learncswith.us/chapters/0-Introduction/0-contents.html)
 
 This podcast is also available at:  ?? iTunes ??
 
