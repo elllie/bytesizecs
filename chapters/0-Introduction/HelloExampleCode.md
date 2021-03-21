@@ -2,7 +2,9 @@ Our first Python program asks Python to print (display to the screen) the messag
 
 In Python, this only requires a single line of code:
 
+'''
 print("Hello World")
+'''
 
 You can create a new textfile; type this command into the file; and then save it (perhaps name it hello.py).
 
