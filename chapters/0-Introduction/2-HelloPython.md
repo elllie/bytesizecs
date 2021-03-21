@@ -10,5 +10,10 @@ nav_order: 2
 
 # Byte 0-2: Hello, Python!
 
-1. Python installation guide
-2. printing hello world
+In ten minutes, you can be a programmer. This byte provides a tutorial for getting started writing code and building your first Python program.
+
+We recommend that you start by start by listening to the episode and then check our our [Python installation resources](2-HelloPython.md).
+
+Once you have Python on your computer, you should check out our [example code](2-HelloPython.md) for a "Hello World" program in Python.
+
+
