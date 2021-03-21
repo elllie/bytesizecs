@@ -12,9 +12,9 @@ Computers might be boxes of magic rocks, but they shouldn’t be mystical. We be
 
 ## Structure of the Series
 
-Each chapter focuses on a broad topic in computer science, from **programming basics** to **computing and humanity**. Each chapter is broken up into several short, easily-digestible episodes. We also include a wide variety of computer scientists who join us to provide aditional insight on the topics we discuss.
+Each chapter focuses on a broad topic in computer science, from **programming basics** to **computing and humanity**. Each chapter is broken up into several short, easily-digestible episodes. We also include a wide variety of computer scientists who join us to provide aditional insight on the topics we discuss.  Get started with [Chapter 0: Introduction](http://learncswith.us/chapters/0-Introduction/0-contents.html)
 
-In addition to the episodes, each chapter also contains practice materials and links to supplimental information. Check our first chapter: [O. Introduction](http://learncswith.us/chapters/0-Introduction/0-contents.html)
+In addition to the episodes, each chapter also contains practice materials and links to supplimental information.
 
 This podcast is also available at:  ?? iTunes ??
 
