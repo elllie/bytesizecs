@@ -5,13 +5,18 @@ has_children: false
 has_toc: false
 nav_order: 1
 ---
-<img src="assets/cover_cleanedge_32020.png" alt="cover art" height="150"/>
+![cover_art](assets/cover_small.png)
 # Byte Size: Computer science in small chunks
 
-We think computer science should be welcoming and accessible to everyone. Byte Size is a conversational course in computing, programming, humanity, and everything in between. Join us in our adventure through the wide world of computer science on any of the major listening platforms.
+Computers might be boxes of magic rocks, but they shouldn’t be mystical. We believe that everyone is capable of learning to program. Byte Size is a conversational course in computer science. We’ll chat about fun topics and teach core concepts in computing in a way that’s palatable regardless of your background. Join our conversation and you’ll be able to call yourself a computer scientist, too.
 
-## Contact
+# Structure
 
-Put a contact email here
+Each chapter focuses on a broad topic in computer science. Each chapter is broken up into short, easily-digestible episodes. 
 
-Maybe some more information ?
+In addition to the audio, each chapter also contains ex
+
+This podcast is also available at:  ?? iTunes ??
+
+## Contact Email
+info@lerncswith.us
