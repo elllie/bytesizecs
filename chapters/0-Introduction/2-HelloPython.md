@@ -14,6 +14,6 @@ In ten minutes, you can be a programmer. This byte provides a tutorial for getti
 
 We recommend that you start by start by listening to the episode and then check our our [Python installation resources](2-HelloPython.md).
 
-Once you have Python on your computer, you should check out our <a download href="hello.py>example code</a> for a "Hello World" program in Python.
+Once you have Python on your computer, you should check out our [example code](HelloExampleCode.md) for a "Hello World" program in Python.
 
 
