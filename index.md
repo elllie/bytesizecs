@@ -25,6 +25,6 @@ We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3z
 
 [Matt Lepinski](https://www.ncf.edu/directory/listing/matthew-lepinski/) is an Associate Professor of Computer Science at New College of Florida. Matt's research specializes in cryptography and Internet security, but his favorite course to teach is New College's introductory programming course.
 
-Ellie handles most of the production work for Byte Size. Matt creates most of the supplementary worksheets.
+Ellie handles most of the production work for Byte Size. Matt creates most of the supplementary materials.
 
 Music produced by [Emma Solloway](https://soundcloud.com/emmp3).
