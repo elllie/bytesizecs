@@ -14,7 +14,7 @@ Computers might be boxes of magic rocks, but they shouldn’t be mystical. We be
 
 Each chapter focuses on a broad topic in computer science. Each chapter is broken up into short, easily-digestible episodes. 
 
-In addition to the episodes, each chapter also contains ex
+In addition to the episodes, each chapter also contains practice materials and links to supplimental information.
 
 This podcast is also available at:  ?? iTunes ??
 
