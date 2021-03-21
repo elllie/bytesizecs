@@ -1,41 +1,9 @@
-## Welcome to GitHub Pages
+# A conversational course in computer science
 
-🚀 🐼
+Computers might be boxes of magic rocks, but they shouldn’t be mystical. We believe that everyone is capable of learning to program. Byte Size is a conversational course in computer science. We’ll chat about fun topics and teach core concepts in computing in a way that’s palatable regardless of your background. Join our conversation and you’ll be able to call yourself a computer scientist, too.
 
-yes
+Each chapter focuses on a broad topic in computer science, from **programming basics** to **computing and humanity**—all broken up into several short, easily-digestible episodes (bytes!) We also chat with a wide variety of computer scientists to provide additional insight on the topics we discuss.  [Get started with our first chapter](http://learncswith.us/chapters/0-Introduction/0-contents.html), or listen to our latest episode below.
 
-You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<iframe src="https://anchor.fm/bytesizecs/embed/episodes/0-2-Hello--Python--Writing-your-first-program-et4f6e" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pmarsceill/test-jtd/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc).
