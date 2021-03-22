@@ -26,7 +26,8 @@ Once you have Python on your computer, you should check out our example code bel
 
 Our first Python program asks Python to print (display to the screen) the message:  Hello World!
 
-#### 🧁 Writing a program that shouts "Hello World!" every time you learn a new language is a computer science tradition [dating back to the 1970s!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+🧁 Writing a program that shouts "Hello World!" every time you learn a new language is a computer science tradition [dating back to the 1970s!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+{: .label .label-purple }
 
 In Python, this only requires a single line of code:
 
