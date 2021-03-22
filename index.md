@@ -13,12 +13,13 @@ Each chapter focuses on a broad topic in computer science, from **programming ba
 
 <iframe src="https://anchor.fm/bytesizecs/embed/episodes/0-2-Hello--Python--Writing-your-first-program-et4f6e" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc).
+We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc){: .btn .btn-green }
 
 ### Contact
 💌 info (@t) learncswith (d0t) us
+{: .label .label-purple }
 
-[Send us a voicemail on Anchor](https://anchor.fm/bytesizecs)
+[Send us a voicemail on Anchor](https://anchor.fm/bytesizecs){: .btn }
 
 ### About the authors
 [Ellie Young](https://elean.org) ([@elliemyo](https://twitter.com/elliemyo)) is an undergraduate researcher interested in making computers and computer science more inclusive. She's currently looking for Ph.D. programs in usable privacy and security. If you run a lab and you think this podcast is cool, maybe shoot her a message?
