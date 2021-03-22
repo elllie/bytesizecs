@@ -12,7 +12,7 @@ nav_order: 2
 
 In ten minutes, you can be a programmer. This byte provides a tutorial for getting started writing code and building your first Python program.
 
-We recommend that you start by start by listening to the episode and then check out our [Python installation resources](2-HelloPython.md).
+We recommend that you start by start by listening to the episode and then check out our [Python installation resources](InstallPython.md).
 
 ## Installing Python
 
