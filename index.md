@@ -13,10 +13,10 @@ Each chapter focuses on a broad topic in computer science, from **programming ba
 
 <iframe src="https://anchor.fm/bytesizecs/embed/episodes/0-2-Hello--Python--Writing-your-first-program-et4f6e" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc){: .btn .btn-green }
+We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc).
 
 ### Contact
-💌 info (@t) learncswith (d0t) us
+💌 inf<!-- mailto:spam@ftc.gov -->o@lea<!-- ; DROP TABLE emails; -->rncswith us
 {: .label .label-purple }
 
 [Send us a voicemail on Anchor](https://anchor.fm/bytesizecs){: .btn }
