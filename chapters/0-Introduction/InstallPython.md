@@ -31,7 +31,7 @@ For a Mac, the terminal window commands (below) are exactly the same, but you op
 
 When I go to the terminal window, the first thing that I need to tell the computer where (in what folder) I put my Python file. 
 
-![terminal window](assets/winTerminal.png)
+![terminal window](../../assets/winTerminal.png)
 
 In this example, I saved my Python file (hello.py) on my Desktop and so I need to tell the computer to go to my Desktop. 
 
@@ -39,7 +39,7 @@ The **cd** command in the terminal window tells the computer to **change directo
 
 After I use **cd** to go to my desktop, I then just type **python** followed by the filename to run the python program. 
 
-![second terminal window](assets/winTerminal2.png)
+![second terminal window](../../assets/winTerminal2.png)
 
 You might want to create a folder on your Desktop to store your Python files. 
 
