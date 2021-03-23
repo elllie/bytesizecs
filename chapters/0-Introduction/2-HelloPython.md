@@ -26,8 +26,7 @@ Once you have Python on your computer, you should check out our example code bel
 
 Our first Python program asks Python to print (display to the screen) the message:  Hello World!
 
-🧁 Writing a program that shouts "Hello World!" every time you learn a new language is a computer science tradition [dating back to the 1970s!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-{: .label .label-purple }
+*Writing a program that shouts "Hello World!" every time you learn a new language is a computer science tradition [dating back to the 1970s!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)*
 
 In Python, this only requires a single line of code:
 
@@ -35,6 +34,6 @@ In Python, this only requires a single line of code:
 print("Hello World!")
 ```
 
-You can create a new text file, type this command into the file, and then save it. We recommend that you name it `hello.py`. (You could also download this code as a <a download href="hello.py">Python program</a>, but really it is more fun to make your own Hello World program from scratch!)
+You can create a new text file, type this command into the file, and then save it. We recommend that you name it `hello.py`. (You could also download this code as a <a download href="hello.py">Python program</a>, but really it is more fun to make your own Hello World program from scratch.)
 
 Let's talk more about what `print("Hello World!")` is doing.
