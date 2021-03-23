@@ -100,3 +100,9 @@ print("Hello World!")
 ```
 
 You can create a new text file, type this command into the file, and then save it. We recommend that you name it `hello.py`. (You could also download this code as a <a download href="hello.py">Python program</a>, but really it is more fun to make your own Hello World program from scratch.)
+
+This is what should happen if you run `hello.py`:
+
+![hello world!](../../assets/hellopython.png)
+
+YOU made that happen, and that's awesome.
