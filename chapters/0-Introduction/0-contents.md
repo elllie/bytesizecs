@@ -8,4 +8,4 @@ nav_order: 2
 
 In our first chapter, we introduce the field of computer science and guide you through writing your first computer program. Welcome!
 
-Side note: Did you know that computers often begin counting at 0? That’s not why we named this chapter 0, but I thought it was worth mentioning.
+Side note: Did you know that [computers often begin counting at 0?](https://en.wikipedia.org/wiki/Zero-based_numbering) That’s not why we named this chapter 0, but I thought it was worth mentioning.
