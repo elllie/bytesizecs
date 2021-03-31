@@ -2,7 +2,7 @@
 (These instructions are written specifically for Matt Lepinski's kitchen and may not work in other kitchens)
 
 
-<ins>**How to boil water**</ins> (if you are given a pot)
+<ins>**How to boil water** (if you are given a pot)</ins>
 
 * Call the pot that you are given <span style="color:blue">Boil Pot</span>
 
@@ -27,7 +27,7 @@ Note that each dial has a picture that identifies the corresponding burner.
 * Done boiling water
 
 
-**How to chop a Scallion** (if you are given a scallion):
+<ins>**How to chop a Scallion** (if you are given a scallion):</ins>
 
 * Call the scallion you are given, <span style="color:blue">The Scallion</span>
 
@@ -58,7 +58,7 @@ Note that each dial has a picture that identifies the corresponding burner.
 
 * Done cutting scallions
 
-**How to open a Ramen Package** (if you are given a ramen package):
+<ins>**How to open a Ramen Package** (if you are given a ramen package):</ins>
 
 * Call the Ramen Package that you are given <span style="color:blue">The Package</span>
 
@@ -88,7 +88,7 @@ Note that each dial has a picture that identifies the corresponding burner.
 
 ---------------
 
-** Main Instructions -- START HERE**
+<ins>**Main Instructions -- START HERE**</ins>
 
 * Obtain package of Ramen
 
