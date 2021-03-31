@@ -7,4 +7,4 @@ nav_order: 3
 
 # Chapter 1. Python Basics
 
-Some description here
+This section is under construction
