@@ -1,41 +1,45 @@
 # How to Cook Ramen
-(These instructions are written specifically for Matt Lepinski's kitchen and may not work in other kitchens)
 
+We start by writing some detailed instructions for smaller tasks.
+
+Then at the bottom, we put it all together and describe how to make ramen (using the smaller tasks).
+
+NOTE: These instructions are written specifically for Matt Lepinski's kitchen and may not work in other kitchens
 
 <ins>**How to boil water** (if you are given a pot)</ins>
 
-* Call the pot that you are given <span style="color:blue">Boil Pot</span>
+* Call the pot that you are given *BOIL POT*
 
-* <span style="color:blue">Boil Pot</span> should already contain water, if it does not this is an error
+* *BOIL POT* should already contain water, if it does not this is an error
 
-* Find an empty burner on the stove, we shall call it <span style="color:blue">Active Burner</span>
+* Find an empty burner on the stove, we shall call it *ACTIVE BURNER*
 
-* <span style="color:blue">Active Burner</span> will have a corresponding circular dial on the front of the stove.
+* *ACTIVE BURNER* will have a corresponding circular dial on the front of the stove.
 Note that each dial has a picture that identifies the corresponding burner.
 
 * Turn the dial clockwise as far as possible to reach the setting marked as HI
 
-* <span style="color:blue">Active Burner</span> should turn Red, if it does not this is an error 
+* *ACTIVE BURNER* should turn Red, if it does not this is an error 
 
-* Place <span style="color:blue">Boil Pot</span> onto <span style="color:blue">Active Burner</span>
+* Place *BOIL POT* onto *ACTIVE BURNER*
 
 * Plese do the following until you see many bubbles cover the entire surface of the water:
     * Watch the water
 
-* Turn the dial for <span style="color:blue">Active Burner</span> counter-clockwise, placing it in the halfway position marked as 5.
+* Turn the dial for *ACTIVE BURNER* counter-clockwise, placing it in the halfway position marked as 5.
 
 * Done boiling water
 
 
 <ins>**How to chop a Scallion** (if you are given a scallion):</ins>
 
-* Call the scallion you are given, <span style="color:blue">The Scallion</span>
+* Call the scallion you are given, *THE SCALLION*
 
 * Face the stove and turn right
 
 * You will see a wooden block with a set of knives in wooden block, if there are no knives this is an error
 
-* Take the knife out of the top-right hole in the wooden block, call this <span style="color:blue">Chop Knife</span>
+* Take the knife out of the top-right hole in the wooden block, call this *CHOP KNIFE*
 
 * Take the smallest rectangular wooden board from pile to the left of the wooden block. Call this <span style="color:blue">Cut Board</span>
 
@@ -91,5 +95,12 @@ Note that each dial has a picture that identifies the corresponding burner.
 <ins>**Main Instructions -- START HERE**</ins>
 
 * Obtain package of Ramen
+
+* Open the package of Ramen
+
+* Obtain a pot
+
+* Put water in the pot
+
 
 
