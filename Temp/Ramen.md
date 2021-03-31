@@ -2,7 +2,7 @@
 (These instructions are written specifically for Matt Lepinski's kitchen and may not work in other kitchens)
 
 
-**How to boil water** (if you are given a pot)
+<ins>**How to boil water**</ins> (if you are given a pot)
 
 * Call the pot that you are given <span style="color:blue">Boil Pot</span>
 
