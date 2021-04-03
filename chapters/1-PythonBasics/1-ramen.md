@@ -25,6 +25,8 @@ They are written to look like code, but don't match the syntax of any actual pro
 Matt doesn't have a pantry. His kitchen is organized using cabinets, shelves, and countertops exclusively.
 ```
 HOWTO: findPot (returns: a pot)
+    turnToFace(shelf)
+    
     if shelf.equip.pots does not have a small pot: 
         stopAndPrint("Error: There's no clean pot")
 
@@ -35,6 +37,7 @@ HOWTO: findPot (returns: a pot)
 ```
 HOWTO: findRamen (returns: a ramen packet)
     turnToFace(shelf)
+    
     if shelf.dryGoods does not have ramen:
         stopAndPrint("Error: We're out of ramen")
 
@@ -44,6 +47,7 @@ HOWTO: findRamen (returns: a ramen packet)
 ```
 HOWTO: findScallion (returns: a scallion)
     turnToFace(window)
+    
     if window.windowsill.scallionsJar does not have scallions:
         stopAndPrint("Error: We're out of scallions")
 
@@ -55,11 +59,32 @@ HOWTO: findScallion (returns: a scallion)
 HOWTO: findEgg (returns: an egg)
     turnToFace(refrigerator)
     open(refrigerator)
+    
     if refrigerator does not have eggs:
         stopAndPrint("Error: We're out of eggs")
 
     todays_egg = refrigerator.dairy.egg
     return with todays_egg
+```
+
+```
+HOWTO: findSeaseme (returns: a seaseme seed dispenser)
+    turnToFace(shelf)
+    
+    if shelf.dryGoods does not have ramen:
+        stopAndPrint("Error: We're out of seaseme seeds")
+
+    return with shelf.dryGoods.seasemeDispenser
+```
+
+```
+HOWTO: findBowl (returns: a soup bowl)
+    turnToFace(shelf)
+    
+    if shelf. does not have soup bowl:
+        stopAndPrint("Error: We are out of clean bowls")
+
+    return with shelf.bowls.soupBowl
 ```
 
 ### Boiling water
@@ -84,7 +109,7 @@ HOWTO: boilWater (NEED: a pot with water, "BoilPot")
         Find(an empty burner on the stove, "ActiveBurner")
 
     until ActiveBurner.Dial is at setting.HI:
-        turnDialClockwise
+        turnDialClockwise( ActiveBurner.Dial )
 
     if ActiveBurner turns red:
         continue
@@ -99,7 +124,7 @@ HOWTO: boilWater (NEED: a pot with water, "BoilPot")
         Watch(water)
 
     until ActiveBurner.Dial is at setting.5:
-        turnDialCounterClockwise
+        turnDialCounterClockwise( ActiveBurner.Dial )
 ```
 
 ### Chopping scallions
@@ -136,13 +161,14 @@ HOWTO: chopScallion (NEED: a scallion, "theScallion"; returns: chopped scallion 
 ```
 
 ### Cooking the ramen
-The following code blocks describe how to open the ramen packet and cook the ramen noodles and flavor packet.
+The following code blocks describe how to open the ramen packet and cook the ramen noodles and flavor pack.
+Note that the ramen packet makes two servings and so we use half of the noodles and half of the flavor pack.
+If we were to cook all of the noodles, they wouldn't all fit in our soup bowl.
 ```
-**HOWTO: openPacket** (NEED: a ramen package, "thePacket")
-    turnToFace(stove)
+HOWTO: openPacket (NEED: a ramen package, "thePacket")
     turnToFace(counter.knifeBlock)
-    if counter.knifeBlock does not have knives:
-        stopAndPrint("Error: There are no clean knives in the knife block")
+    if counter.knifeBlock does not have scissors:
+        stopAndPrint("Error: There are no scissors in the knife block")
     
     RamenScissors = counter.knifeBlock.knives.scissors
     take(RamenScissors)
@@ -166,10 +192,41 @@ The following code blocks describe how to open the ramen packet and cook the ram
     PlaceMany(items: [Noodles, FlavorPacket], destination: countertop)
 ```
 
+```
+HOWTO: addFlavor(NEED: flavor pack "theFlavor"; a pot of water "waterPot")
+    turnToFace(counter.knifeBlock)
+    if counter.knifeBlock does not have scissors:
+        stopAndPrint("Error: There are no scissors in the knife block")
+    
+    RamenScissors = counter.knifeBlock.knives.scissors
+    take(RamenScissors)
+    
+    Hold(theFlavor)
+    Hold(RamenScissors)
+    
+    RamenScissors.cut(theFlavor.corner)
+    
+    turnToFace(stove)
+    PourContents(source: theFlavor, destination: waterPot, amount: "Half")
+```
+
+```
+HOWTO: cookRamen(NEED: ramen noodes "theNoddles"; a pot of boiling water "boilPot")
+    todays_scallion = findScallion()
+    scallion_pieces = chopScallion(todays_scallion)
+    
+    turnToFace(stove)
+    half_noodles = breakFragileObject(item: theNoodles, amount: "Half")
+    PlaceMany(items: [theNoodles, scallion_pieces], destination: boilPot)
+    
+    secondsToWait = 180
+    wait(secondsToWait)
+```
+
 ### Poaching an egg
 This code block follows [Gordon Ramsay's instructions](https://www.youtube.com/watch?v=iHGO8ygUk0w) for poaching an egg, sans the dramatic music.
 ```
-**HOWTO: PoachEgg (NEED: an egg, "egg"; a pot of boiling water, "boilingPot")
+HOWTO: PoachEgg (NEED: an egg, "egg"; a pot of boiling water, "boilingPot")
     turnToFace(drawer)
     if drawer does not have a whisk:
         if drawer has a large spoon:
@@ -205,30 +262,76 @@ This code block follows [Gordon Ramsay's instructions](https://www.youtube.com/w
     Place(item: utensil.egg, destination: bowl)
 ```
 
-### Main Program (Computer starts here)
-(Human readable instructions and an explanation for why this works)
+### Serving the Ramen
+This code removes the ramen from the pot and puts it into a soup bowl. It also adds the eggs and the seaseme seeds to complete the ramen. 
+We also include some instructions at the end for safety where we look at each burner in turn and make sure it is off. 
+This is just to ensure that we haven't mistakenly left any burners on, which would be very bad.
 
 ```
-**Main Instructions -- START HERE**
+HowTo: ServeRamen(NEED: a pot of cooked ramen "ramenPot", a poached egg "egg", a soup bowl "ramenBowl"; returns: a bowl of completed ramen)
+    cooked_noodles = ramenPot.contents.noodles
+    Place(item: cooked_noodles, destination: ramenBowl)
+    
+    until ramenBowl is full:
+        PourContents(item: ramenPot, destination: ramenBowl, amount "Small")
+    
+    Place(item: egg, destination: ramenBowl)
+    
+    seasemeDispenser = findSeaseme()
+    PourContents(item: seasemeDispenser, destination: ramenBowl, amount "Small")
+    
+    secondsToWait = 100
+    wait(secondsToWait)
+    
+    Place(item: ramenBowl, desitnation: table)
+    
+    return ramenBowl
+```
+
+serveRamen(filledPot, todays_egg, todays_bowl) 
+
+    PourContents(item: theFlavor, destination: waterPot, amount: "All")
+```
+
+```
+HowTo: safetyCheckBurners()
+    turnToFace(stove)
+    
+    until every burner has been checked:
+         Find(the next unchecked burner, currentBurner)
+         until currentBurner.Dial is at setting.OFF:
+            turnDialCounterClockwise( currentBurner.Dial )
+```
+
+### Main Program (The computer starts here)
+Once we have instructions for each of the steps, the high-level ramen recipe is pretty simple.
+Computer scientists spend most of their time writing detailed instructions for small parts of the problem. 
+Then once each of the small parts works, putting them all togther is the easy part! 
+
+```
+HowTo: MakeRamen(returns a bowl of ramen)
 
 todays_packet = findRamen()
-openPacket(todays_packet)
+[todays_noodles, todays_flavor] = openPacket(todays_packet)
 
 pot = findPot()
 filledPot = fillPotWithWater(pot)
+addFlavor(todays_flavor, filledPot)
 boilWater(filledPot)
 
 pot2 = findPot()
 filledEggPot = fillPotWithWater(pot2)
-
 boilWater(filledEggPot)
+
 todays_egg = findEgg()
 PoachEgg(todays_egg, filledEggPot)
 
-... put the flavor packet in the water (this is a function)
-.... then the scallions (function)
-..... then the noodles (function)
-... wait 3 minutes
-... remove and place in bowl (function)
-... wait 3 more minutes to cool
+cookRamen(todays_nooddles, filledPot)
+
+todays_bowl = findBowl()
+completed_ramen = serveRamen(filledPot, todays_egg, todays_bowl) 
+
+safteyCheckBurners()
+
+return completed_ramen
 ```
