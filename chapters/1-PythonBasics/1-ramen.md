@@ -284,9 +284,6 @@ HowTo: ServeRamen(NEED: a pot of cooked ramen "ramenPot", a poached egg "egg", a
     wait(secondsToWait)
     
     Place(item: ramenBowl, desitnation: table)
-```
-
-serveRamen(filledPot, todays_egg, todays_bowl) 
 
     PourContents(item: theFlavor, destination: waterPot, amount: "All")
 ```
@@ -327,7 +324,7 @@ PoachEgg(todays_egg, filledEggPot)
 cookRamen(todays_nooddles, filledPot)
 
 todays_bowl = findBowl()
-serveRamen(filledPot, todays_egg, todays_bowl) 
+ServeRamen(filledPot, todays_egg, todays_bowl) 
 
 safteyCheckBurners()
 
