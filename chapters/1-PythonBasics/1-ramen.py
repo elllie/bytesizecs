@@ -18,59 +18,66 @@ We start by writing some detailed instructions for smaller tasks.
 
 Then at the bottom, we put it all together and describe how to make ramen (using the smaller tasks).
 
-NOTE: These instructions are written specifically for Matt's kitchen and may not work in other kitchens
+NOTE: These instructions are written specifically for Matt's kitchen and may not work in other kitchens.
+They are written to look like code, but don't match the syntax of any actual programming language. (Programmers call this style of writing "pseudocode.")
 
 ```
 **HOWTO: boilWater** (NEED: a pot with water, "BoilPot")
-    If BoilPot does not have water: abort
-    FIND: an empty burner on the stove, "ActiveBurner"
-```
+    If BoilPot does not have water: 
+        abort
+    otherwise:
+        Find(an empty burner on the stove, "ActiveBurner")
 
-* *ACTIVE BURNER* will have a corresponding circular dial on the front of the stove.
-Note that each dial has a picture that identifies the corresponding burner.
+    # ActiveBurner will have a corresponding circular dial on the front of the stove.
+    # Note that each dial has a picture that identifies the corresponding burner.
 
-* Turn the dial clockwise as far as possible to reach the setting marked as HI
+    until ActiveBurner.Dial is at setting.HI:
+        turnDialClockwise
 
-* *ACTIVE BURNER* should turn Red, if it does not this is an error 
+    if ActiveBurner turns red:
+        continue
+    otherwise:
+        stopAndPrint("Error: The burner didn't turn red like it was supposed to when you turned the heat on")
 
-* Place *BOIL POT* onto *ACTIVE BURNER*
+    Place(item: BoilPot, destination: ActiveBurner)
 
-* Plese do the following until you see many bubbles cover the entire surface of the water:
-    * Watch the water
+    Boiling = you see many bubbles covering the entire surface of the water
 
-* Turn the dial for *ACTIVE BURNER* counter-clockwise, placing it in the halfway position marked as 5.
+    until Boiling:
+        Watch(water)
 
-* Done boiling water
+    until ActiveBurner.Dial is at setting.5:
+        turnDialCounterClockwise
 
+    # Done boiling water
 
-<ins>**How to chop a Scallion** (if you are given a scallion):</ins>
-
-* Call the scallion you are given, *THE SCALLION*
-
-* Face the stove and turn right
-
-* You will see a wooden block with a set of knives in wooden block, if there are no knives this is an error
-
-* Take the knife out of the top-right hole in the wooden block, call this *CHOP KNIFE*
-
-* Take the smallest rectangular wooden board from pile to the left of the wooden block. Call this <span style="color:blue">Cut Board</span>
-
-* Place <span style="color:blue">Cut Board</span> into any empty location on the marble countertop
-
-* Place <span style="color:blue">The Scallion</span> onto <span style="color:blue">Cut Board</span>
-
-* Hold <span style="color:blue">The Scallion </span> near one end
-
-* Repeat the following as long as <span style="color:blue">The Scallion </span> is more than three inches long:
-    * Position <span style="color:blue">Chop Knife </span> perpendicular to <span style="color:blue">The Scallion </span> near the end furthest from your hand
+**HOWTO: chopScallion (NEED: a scallion, "theScallion")
+    turnToFace(stove)
+    turnToFace(counter.knifeBlock)
+    if counter.knifeBlock does not have knives:
+        stopAndPrint("Error: There are no clean knives in the knife block")
     
-    * Prepare to cut a thin circle off <span style="color:blue">The Scallion </span> but do not yet make the cut
+    ChopKnife = counter.knifeBlock.knives.topRightKnife
+    take(ChopKnife)
+    
+    CutBoard = counter.cuttingBoards.smallestBoard
+    
+    Place(item: CutBoard, destination: countertop)
+    Place(item: theScallion, destination: CutBoard)
+    
+    Hold(theScallion.stem)
+    Hold(ChopKnife)
+    
+    while theScallion has green:
+        Hover(ChopKnife, location: theScallion.top, position: theScallion.perpendicular)
+        
+        if ChopKnife.location is above hand:
+            stop
+        otherwise: 
+            cut(theScallion, with: ChopKnife)
 
-    * Check if making the cut will risk the knife to touch your hand, if so stop repeating and go to the next instruction
 
-    * Cut the thin circle off the end of <span style="color:blue">The Scallion </span>
- 
-* Collect the thin cicles of scallion in the center of <span style="color:blue">Cut Board</span> and save these for later use
+Collect the thin cicles of scallion in the center of <span style="color:blue">Cut Board</span> and save these for later use
 
 * Done cutting scallions
 
