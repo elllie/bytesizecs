@@ -13,7 +13,7 @@ Each chapter focuses on a broad topic in computer science, from **programming ba
 
 <iframe src="https://anchor.fm/bytesizecs/embed/episodes/1-3-Practicing-Python-Basics-eu5ito" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
-We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc), [Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80YzM1ZjBlYy9wb2RjYXN0L3Jzcw==), [Breaker](https://www.breaker.audio/byte-size-conversational-computer-science), [Pocket Casts](https://pca.st/a9vkd4iw), and [RadioPublic](https://radiopublic.com/byte-size-conversational-computer-Gm5bJa).
+We're also available on [Spotify](https://open.spotify.com/show/6aHvs4wPbeOq3V3zzNiMnc), [Apple Podcasts](https://podcasts.apple.com/us/podcast/byte-size-conversational-computer-science/id1559700320), [Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80YzM1ZjBlYy9wb2RjYXN0L3Jzcw==), [Breaker](https://www.breaker.audio/byte-size-conversational-computer-science), [Pocket Casts](https://pca.st/a9vkd4iw), [Overcast](https://overcast.fm/itunes1559700320), and [RadioPublic](https://radiopublic.com/byte-size-conversational-computer-Gm5bJa).
 
 ### Contact
 💌 inf<!-- mailto:spam@ftc.gov -->o@lea<!-- ; DROP TABLE emails; -->rncswith us
