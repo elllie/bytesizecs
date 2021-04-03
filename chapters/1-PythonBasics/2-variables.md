@@ -10,7 +10,7 @@ nav_order: 2
 
 This byte is all about getting computers to save and remember information using variables. We chat with an expert about what variables are, why they’re useful, how they work, and how to use them.
 
-(iplayer here)
+<iframe src="https://anchor.fm/bytesizecs/embed/episodes/1-2-A-Bite-of-Data-eu5ipv" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 ## This byte's guest: [Caitrin Eaton](https://www.ncf.edu/directory/listing/caitrin-eaton/)
 
