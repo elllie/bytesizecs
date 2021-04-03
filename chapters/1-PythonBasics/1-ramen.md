@@ -268,7 +268,7 @@ We also include some instructions at the end for safety where we look at each bu
 This is just to ensure that we haven't mistakenly left any burners on, which would be very bad.
 
 ```
-HowTo: ServeRamen(NEED: a pot of cooked ramen "ramenPot", a poached egg "egg", a soup bowl "ramenBowl"; returns: a bowl of completed ramen)
+HowTo: ServeRamen(NEED: a pot of cooked ramen "ramenPot", a poached egg "egg", a soup bowl "ramenBowl")
     cooked_noodles = ramenPot.contents.noodles
     Place(item: cooked_noodles, destination: ramenBowl)
     
@@ -284,8 +284,6 @@ HowTo: ServeRamen(NEED: a pot of cooked ramen "ramenPot", a poached egg "egg", a
     wait(secondsToWait)
     
     Place(item: ramenBowl, desitnation: table)
-    
-    return ramenBowl
 ```
 
 serveRamen(filledPot, todays_egg, todays_bowl) 
@@ -329,9 +327,9 @@ PoachEgg(todays_egg, filledEggPot)
 cookRamen(todays_nooddles, filledPot)
 
 todays_bowl = findBowl()
-completed_ramen = serveRamen(filledPot, todays_egg, todays_bowl) 
+serveRamen(filledPot, todays_egg, todays_bowl) 
 
 safteyCheckBurners()
 
-return completed_ramen
+return todays_bowl
 ```
