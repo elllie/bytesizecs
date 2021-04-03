@@ -21,6 +21,9 @@ Then at the bottom, we put it all together and describe how to make ramen (using
 NOTE: These instructions are written specifically for Matt's kitchen and may not work in other kitchens.
 They are written to look like code, but don't match the syntax of any actual programming language. (Programmers call this style of writing "pseudocode.")
 
+### Boiling water
+(Human instructions here)
+
 ```
 **HOWTO: boilWater** (NEED: a pot with water, "BoilPot")
     If BoilPot does not have water: 
@@ -50,8 +53,13 @@ They are written to look like code, but don't match the syntax of any actual pro
         turnDialCounterClockwise
 
     # Done boiling water
+```
 
-**HOWTO: chopScallion (NEED: a scallion, "theScallion")
+### Chopping scallions
+(Human instructions here)
+
+```
+**HOWTO: chopScallion** (NEED: a scallion, "theScallion")
     turnToFace(stove)
     turnToFace(counter.knifeBlock)
     if counter.knifeBlock does not have knives:
@@ -76,47 +84,86 @@ They are written to look like code, but don't match the syntax of any actual pro
         otherwise: 
             cut(theScallion, with: ChopKnife)
 
+    scallions_collection = take(CutBoard.center.scallion_pieces)
+    Place(item: scallions_collection, destination: counter.bowl)
 
-Collect the thin cicles of scallion in the center of <span style="color:blue">Cut Board</span> and save these for later use
+    # Done cutting scallions
+```
 
-* Done cutting scallions
+### Opening a ramen packet
+(Human instructions here)
 
-<ins>**How to open a Ramen Package** (if you are given a ramen package):</ins>
+```
+**HOWTO: openPacket** (NEED: a ramen package, "thePacket")
+    turnToFace(stove)
+    turnToFace(counter.knifeBlock)
+    if counter.knifeBlock does not have knives:
+        stopAndPrint("Error: There are no clean knives in the knife block")
+    
+    RamenScissors = counter.knifeBlock.knives.scissors
+    take(RamenScissors)
+    
+    Hold(thePacket)
+    Hold(RamenScissors)
+    
+    RamenScissors.cut(thePacket.edge)
+    
+    if thePacket.edge has a hole:
+        continue
+    otherwise:
+        stopAndPrint("Error: The ramen packet is still sealed")
+        
+    Place(item: finger, destination: thePacket.edge.hole)
+    tearOpen(at_placement)
+    
+    Noodles = thePacket.inside.noodles
+    FlavorPacket = thePacket.inside.miniPacket
+    
+    PlaceMany(items: [Noodles, FlavorPacket], destination: countertop)
+    
+    # Done opening ramen package
+```
 
-* Call the Ramen Package that you are given <span style="color:blue">The Package</span>
+### Poaching an egg
+(Human instructions here)
+```
+**HOWTO: PoachEgg (NEED: an egg, "egg")
+    # Instructions here
+```
 
-* Face the stove and turn right
+### Main Program (Computer starts here)
+(Human readable instructions and an explanation for why this works)
 
-* You will see a wooden block with a set of knives in wooden block, if there are no knives this is an error
+```
+**Main Instructions -- START HERE**
 
-* Take the scissors out of the bottom hole in the wooden block, call this <span style="color:blue">Ramen Scissors</span>
+# find ramen
+turnToFace(shelf)
+if shelf.dryGoods does not have ramen:
+    stopAndPrint("Error: We're out of ramen")
 
-* Place your thumb and index finger into the holes in the handle <span style="color:blue">Ramen Scissors</span>
+todays_packet = shelf.dryGoods.ramenPacket
 
-* Use your thumb and index finger to open up  <span style="color:blue">Ramen Scissors</span>
+take(todays_packet)
+openPacket(todays_packet)
 
-* With your other hand, hold <span style="color:blue">The Package</span> so that a corner of <span style="color:blue">The Package</span> is between the blades of <span style="color:blue">Ramen Scissors</span>
+# find pot
+if shelf.equip.pots does not have a small pot: 
+    stopAndPrint("Error: There's no clean pot")
 
-* Use your thumb and index finger to close <span style="color:blue">Ramen Scissors</span>
+pot = shelf.equip.pots.saucepan
+turnToFace(sink)
+sink.fillWithWater(pot)
 
-* A corner of Ramen Package should now be missing and you see a hole in the package, if not this is an error
+boilWater(pot)
 
-* Return <span style="color:blue">Ramen Scissors</span> to the wooden block where you found it
+# scallions
+turnToFace(window)
+if window.windowsill.scallionsJar does not have scallions:
+    stopAndPrint("Error: We're out of scallions")
 
-* Put your fingers into the hole where the corner was removed and use your fingers to tear open <span style="color:blue">The Package</span>
+scallion = window.windowsill.scallionsJar.longestScallion
 
-* Inside the package you should obtain ramen noodles and a flavor package, save these for later use
-
-* Done opening ramen package
-
----------------
-
-<ins>**Main Instructions -- START HERE**</ins>
-
-* Obtain package of Ramen
-
-* Open the package of Ramen
-
-* Obtain a pot
-
-* Put water in the pot
+take(scallion)
+chopScallion(scallion)
+```
