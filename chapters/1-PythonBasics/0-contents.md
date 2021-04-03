@@ -7,4 +7,4 @@ nav_order: 3
 
 # Chapter 1. Python Basics
 
-This section is under construction
+You’ve installed Python on your computer… now what? After this chapter, you’ll be well on your way to programming greatness.
