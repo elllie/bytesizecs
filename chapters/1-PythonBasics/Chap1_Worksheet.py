@@ -1,4 +1,4 @@
-# Byte-Size : Chapter 1 Python Worksheet
+# Byte Size : Chapter 1 Python Worksheet
 
 # The hashtag symbol at the start of the line marks this line as a COMMENT
 # Comments in Python are intended for humans reading the file
