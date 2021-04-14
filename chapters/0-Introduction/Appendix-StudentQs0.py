@@ -37,7 +37,7 @@ Some examples of this:
 
 #### Run a Python program
 
-#### See who owns a particular Web address
+#### See who owns a particular Web address (Mac/Linux only)
 
 ### Common mistakes
 
