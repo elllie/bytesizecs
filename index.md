@@ -3,7 +3,7 @@ title: "Home"
 layout: default
 has_children: false
 has_toc: false
-nav_order: 1
+nav_order: 0
 ---
 # A conversational course in computer science
 
