@@ -77,7 +77,7 @@ The flags (adjectives) available for any particular command (verb) depend on the
 
 #### Mistake 1: Misunderstanding the difference between nouns and verbs
 
-I have seen some people say `cd python3 hello.py`. This confuses the terminal because it sees `cd python3`, thinks "okay, we're changing directories to `python3`, then one of two things happen:
+I have seen some people say `cd python3 hello.py`. This confuses the terminal because it sees `cd python3`, thinks "okay, we're changing directories to `python3`," then one of two things happen:
 1. There isn't a `python3` folder inside the current folder, so the terminal says "I can't move to `python3` because it doesn't exist." and dies.
 2. There *is* a `python3` folder inside the current folder, so the terminal moves there. It then sees a second noun—`hello.py`—and doesn't know what to do with it because `cd` can only change directories to a single place.
 
@@ -97,10 +97,21 @@ the terminal thinks the verb I'm giving it is `cd/Users/eleanor/Documents/thesis
 
 The terminal gets confused if the command you're giving it is even one character off (see above.) If you're getting a strange error, it's possible that you spelled things wrong. Note that commands are also **case-sensitive.** (`PYTHON` ≠ `python`.)
 
+#### Common error: "No such file or directory"
+`No such file or directory` means that the terminal couldn't find the thing you want to use/work on. This is most commonly due to a typo in your noun. Check to see whether you are in the right folder and make sure you spelled everything correctly.
+
 ## Writing code and using the terminal is intimidating! Isn't there a less scary way where I can just click buttons?
+
+There are ways you can run Python by clicking buttons, but they are actually more complicated than typing in your terminal. The act of clicking a button does many more things inside the computer than just telling it `python my_program.py` which means there are many more moving pieces that can break. The buttons often don't work the way you expect and it's very difficult to isolate the problem. With the terminal, you can read exactly what's happening at any given moment.
 
 ## Who made the first programming language?
 
+The first modern programming language is widely considered to be [COBOL](https://en.wikipedia.org/wiki/COBOL), based on work conducted in the 1950s by [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper). COBOL is actually [still in use today!](https://www.theverge.com/2020/4/14/21219561/coronavirus-pandemic-unemployment-systems-cobol-legacy-software-infrastructure)
+
 ## How are programming languages developed? For what purposes are they created?
+
+Programming languages are developed for all kinds of reasons by all kinds of people. Anyone who wants to can create a programming language. The process involves a series of decisions regarding what you want your language to do and how it should handle various use cases.
+
+There are also people whose entire field of study revolves around programming languages.
 
 ## What makes Python special?
