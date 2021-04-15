@@ -112,6 +112,26 @@ The first modern programming language is widely considered to be [COBOL](https:/
 
 Programming languages are developed for all kinds of reasons by all kinds of people. Anyone who wants to can create a programming language. The process involves a series of decisions regarding what you want your language to do and how it should handle various use cases.
 
-There are also people whose entire field of study revolves around programming languages.
+There are also people whose entire field of study revolves around programming languages. [Heather Miller](https://heather.miller.am/) is one such person. PL researchers drive much of the world's knowledge of programming language theory and they are often the first to come up with new and experimental methods of designing programming languages. 
+
+Most languages are also developed by communities of open-source contributors around the globe. Some of these contributors are volunteers and others are professional software engineers for whom building/maintaining a language is part of their job.
 
 ## What makes Python special?
+
+We like Python because it's easier to read and write than some other languages and because most to all of the instructions we'll write in this class are marginally simpler in Python than most other languages. That's all—there are other reasons why Python is good, but it's not the best language by any means (nor is there really such a thing as a "best" language, only languages that are suited for particular tasks.) Ellie's other pick for a beginner-friendly language is [Swift](https://developer.apple.com/swift/#great).
+
+Python is popular for writing "quick and dirty" scripts to wrangle text. It's also very widely used in data science and statistics. A *large* proportion of the Internet's backend is additionally built in Python.
+
+There are other languages that are better at other things. For example, Swift (aforementioned) was originally built for creating iOS apps. 
+
+## A little more on programming language history & development
+
+One student asked:
+
+> Do new programming languages derive from prior ones? Do older programming languages still have significant practical use now in comparison to those that were created more recently?
+
+Answer: Yes & yes (though it depends on each specific language, of course.) 
+
+Python, Swift, Java, R, and [hundreds of other languages](https://en.wikipedia.org/wiki/List_of_C-family_programming_languages) derive from the [C programming language](https://en.wikipedia.org/wiki/C_(programming_language)) invented in 1972.
+
+C continues to be very useful today because of its strengths in embedded systems and small computers without a lot of resources. It has some fancier descendants that are easier to use while still keeping C's strengths (notably [C++](https://www.cplusplus.com/info/faq/) and [Rust](https://www.rust-lang.org/)), but C itself is still widely useful across contexts and it still has an active team of maintainers.
