@@ -20,7 +20,7 @@ The terminal only accepts sentences in a certain format and gets really confused
 
 ### Anatomy of a terminal command
 
-![anatomy of a terminal command](assets/terminal-anatomy.png)
+![anatomy of a terminal command](../../assets/terminal-anatomy.png)
 
 Any given line in a terminal window will look like this:
 
@@ -35,9 +35,30 @@ Some examples of this:
 
 #### Change the folder you're in
 
+```sh
+username currentFolder % cd newFolder
+```
+The verb is `cd` ("change directory") and the noun (place) we want to `cd` to here is `newFolder`.
+
+After you run this command, `newFolder` should replace `currentFolder` on the left.
+
+You can also give it a whole path to a different folder, e.g. `cd insideFolder/path/to/anotherFolder/newFolder2`. In this case, `newFolder2` will replace `currentFolder` once the command is executed successfully.
+
 #### Run a Python program
 
+```sh
+username currentFolder % python pythonFile.py
+```
+The verb is `python` and the noun (program) we want to `python` here is `pythonFile.py`. If your python program is in a different location than `currentFolder`, you'll have to tell the terminal where to find it, e.g. `python insideFolder/pythonFile.py`.
+
 #### See who owns a particular Web address (Mac/Linux only)
+
+```sh
+username currentFolder % whois ncf.edu
+```
+For this command, the current location doesn't matter at all. The verb is `whois` and the noun (website) we want to `whois` here is `ncf.edu`. When you run this command, the `whois` program built into your (Mac/Linux) computer will search internet directories to find out who owns the domain name you specified.
+
+If you want to learn more about the command-line interface and things you can do with the terminal, I found [this cool guide](https://medium.com/@JuxtaposedWords/an-introduction-to-mac-s-terminal-part-i-cli-vs-gui-b6acd3794d7c) with a lot of good information for beginner to intermediate terminal users.
 
 ### Common mistakes
 
