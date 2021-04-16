@@ -3,6 +3,8 @@ title: Assignments
 nav_order: 1
 ---
 
+**Check your email for the submission link. If you can't find it, message Ellie**
+
 # Assignments (Spring 2021 Mod 2)
 
 | Assignment                                                                                 | Due                                        | 
