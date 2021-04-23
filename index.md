@@ -7,7 +7,7 @@ nav_order: 0
 ---
 # A conversational course in computer science
 
-Computers might be boxes of magic rocks, but they shouldn’t be mystical. We believe that everyone is capable of learning to program. Byte Size is a conversational course in computer science. We’ll chat about fun topics and teach core concepts in computing in a way that’s palatable regardless of your background. Join our conversation and you’ll be able to call yourself a computer scientist, too.
+Computers might be boxes of magic rocks, but they shouldn’t be mystical. Byte Size is a conversational course in computer science. We’ll chat about fun topics and teach core concepts in computing in a way that’s palatable regardless of your background. Join our conversation to unlock secrets about the field of computer science you might otherwise only find out from being there.
 
 Each chapter focuses on a broad topic in computer science, from **programming basics** to **computing and humanity**—all broken up into several short, easily-digestible episodes (bytes!) We also chat with a wide variety of computer scientists to provide additional insight on the topics we discuss.  [Get started with our first chapter](http://learncswith.us/chapters/0-Introduction/0-contents.html), or listen to our latest episode below.
 
