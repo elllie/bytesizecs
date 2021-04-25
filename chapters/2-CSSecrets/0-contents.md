@@ -2,7 +2,7 @@
 title: "2. CS Secrets (Part One)"
 has_children: true
 has_toc: true
-nav_order: 3
+nav_order: 4
 ---
 
 # Chapter 2. (Some) Stuff they don't tell you about CS
