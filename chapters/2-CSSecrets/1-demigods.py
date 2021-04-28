@@ -23,3 +23,4 @@ David Gray Widder is a researcher at Carnegie Mellon working to understand how s
 * [Algorithmic Impact Assessments](https://ainowinstitute.org/aiareport2018.pdf) from the [AI Now Institute](https://ainowinstitute.org/)
 * [Original ProPublica piece about racist risk assessment tools](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing), using data from Florida courts
 * [A more recent analysis adding nuance to the above ProPublica article](https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/)
+* [Algorithmic Justice League: Resources and research illustrating the social implications of AI](https://www.ajl.org/)
