@@ -8,15 +8,17 @@ nav_order: 2
 
 # 2-1: Computers aren't demigods / On the existence of bias-free systems
 
-(((This byte is all about getting computers to save and remember information using variables. We chat with an expert about what variables are, why they’re useful, how they work, and how to use them.)))
+Computers just do what flawed humans tell them to do—they’re not capable of original thought, and they’re certainly not capable of thinking about things at a higher level than any human. In this byte, software engineering researcher David Widder explains the pitfalls of placing too much trust in computers.
 
 (iframe)
 
 ## This byte's guest: [David Widder](http://davidwidder.me/)
 
-<img src="http://davidwidder.me/images/portrait-newerer.jpg" width="250">
+<img src="http://davidwidder.me/images/portrait-newerer-crop.jpg" width="250">
 
 David Gray Widder is a researcher at Carnegie Mellon working to understand how software engineers think about the effect Artificial Intelligence is having in their workplace and our political society. He is a painter working on conflicts between appropriation, inspiration, and his own cultural identity in contemporary portraiture. You can find him on Twitter [@davidthewid.](https://twitter.com/davidthewid)
+
+<a class="twitter-timeline" data-height="350" data-dnt="true" href="https://twitter.com/davidthewid?ref_src=twsrc%5Etfw">Tweets by davidthewid</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Further reading
 
