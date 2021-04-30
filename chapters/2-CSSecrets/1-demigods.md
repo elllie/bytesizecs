@@ -14,7 +14,7 @@ Computers just do what flawed humans tell them to do—they’re not capable of 
 
 ## This byte's guest: [David Widder](http://davidwidder.me/)
 
-<img src="http://davidwidder.me/images/portrait-newerer-crop.jpg" width="250">
+<img src="https://se-phd.isri.cmu.edu/images/people/students/widder-david.jpg" width="250">
 
 David Gray Widder is a researcher at Carnegie Mellon working to understand how software engineers think about the effect Artificial Intelligence is having in their workplace and our political society. He is a painter working on conflicts between appropriation, inspiration, and his own cultural identity in contemporary portraiture. You can find him on Twitter [@davidthewid.](https://twitter.com/davidthewid)
 
