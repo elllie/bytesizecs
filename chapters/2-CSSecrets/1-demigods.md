@@ -16,7 +16,7 @@ Computers just do what flawed humans tell them to do—they’re not capable of 
 
 <img src="https://se-phd.isri.cmu.edu/images/people/students/widder-david.jpg" width="250">
 
-David Gray Widder is a researcher at Carnegie Mellon working to understand how software engineers think about the effect Artificial Intelligence is having in their workplace and our political society. He is a painter working on conflicts between appropriation, inspiration, and his own cultural identity in contemporary portraiture. You can find him on Twitter [@davidthewid.](https://twitter.com/davidthewid)
+David Gray Widder is a researcher at Carnegie Mellon working to understand how software engineers think about the effect Artificial Intelligence is having in their workplace and our political society. He is a painter working on conflicts between appropriation, inspiration, and his own cultural identity in contemporary portraiture.
 
 <a class="twitter-timeline" data-height="350" data-dnt="true" href="https://twitter.com/davidthewid?ref_src=twsrc%5Etfw">Tweets by davidthewid</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
