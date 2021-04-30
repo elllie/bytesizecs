@@ -1,6 +1,6 @@
 ---
 title: "1. Computers aren't demigods"
-parent: "2. CS Secrets (Part One)"
+parent: "2. You & AI"
 has_children: false
 has_toc: false
 nav_order: 2
