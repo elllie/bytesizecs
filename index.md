@@ -5,7 +5,7 @@ has_children: false
 has_toc: false
 nav_order: 0
 ---
-# A conversational course in computer science
+# Conversations about computing
 
 Computers might be boxes of magic rocks, but they shouldn’t be mystical. Byte Size is a conversational course in computer science. We’ll chat about fun topics and teach core concepts in computing in a way that’s palatable regardless of your background. Join our conversation to unlock secrets about the field of computer science you might otherwise only find out from being there.
 
