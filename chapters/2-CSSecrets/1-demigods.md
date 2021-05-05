@@ -10,7 +10,7 @@ nav_order: 2
 
 Computers just do what flawed humans tell them to do—they’re not capable of original thought, and they’re certainly not capable of thinking about things at a higher level than any human. In this byte, software engineering researcher David Widder explains the pitfalls of placing too much trust in computers.
 
-(iframe)
+<iframe src="https://anchor.fm/bytesizecs/embed/episodes/2-1-Computers-arent-demigods-e108uuj" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
 
 ## This byte's guest: [David Widder](http://davidwidder.me/)
 
